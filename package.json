@@ -1,5 +1,5 @@
 {
-  "name": "create-html-webpack-plugin",
+  "name": "create-html-for-webpack",
   "version": "0.0.1",
   "description": "生成html的webpack插件",
   "main": "index.js",
