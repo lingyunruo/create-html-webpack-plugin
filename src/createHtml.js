@@ -18,7 +18,7 @@ module.exports = function createHtml(fileInfo, templateContent, templateName, pu
         beforeAppendJs && beforeAppendJs($);
         $('body').append(`<script src="${jsPath}"></script>`);
 
-        console.log('create html: ', targetPath);
+        console.log('create html: ', htmlPath);
 
         h.writeFile(targetPath, htmlPath, $.html());
     }
